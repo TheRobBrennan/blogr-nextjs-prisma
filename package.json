@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "prisma": "npx prisma studio",
+    "prisma:update:db": "npx prisma db push",
     "postinstall": "prisma generate"
   },
   "keywords": [],
